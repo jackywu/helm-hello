@@ -9,5 +9,6 @@ echo "ENVIRONMENT"
 echo $TILLER_HOST
 echo $HELM_HOME
 
-$HELM_BIN --host $TILLER_HOST ls --all
+#$HELM_BIN --host $TILLER_HOST hello
 
+$HELM_BIN ls
